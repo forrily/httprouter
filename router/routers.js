@@ -1,5 +1,5 @@
 
-var url =require("url");
+
 const router = function (req, res) {
   var a = parseFloat(req.body.a);
   var b = parseFloat(req.body.b);
@@ -15,4 +15,4 @@ const router = function (req, res) {
 };
 
 
-module.exports.router = router;
+module.exports = router;
