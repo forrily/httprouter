@@ -33,6 +33,7 @@ app.get('/tutorial/student/list', function (req, res) {
 
 app.use('/log', express.static('public/logdemo.html'));
 app.post('/v3/peter/debug/append', function (req, res) {
+  //这里为能将log成功打印
   res.send({ ret: 1000 });
 });
 
