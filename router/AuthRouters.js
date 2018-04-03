@@ -14,8 +14,12 @@ const BasicParameterizedHttpRoute = function (req, res) {
 
 const QueryInRequst = function (req, res) {
     var a = parseFloat(req.query.a); 
-    var b = parseFloat(req.query.b); 
-    var result = a + b; 
+    var b = parseFloat(req.query.b);
+    let result = 0; 
+    const operator = req.params.action;
+    if("plus" == operator){
+        result = a + b;
+    }
     res.json( {
         "ret":1000, 
         "version":req.params.version, 
