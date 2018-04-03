@@ -27,7 +27,7 @@
 ### log打印
 > 操作步骤：浏览器访问："http://localhost:3000/log" 选择name & lv 后点击add，浏览器返回"{ ret: 1000 }" 根目录生出一个log的文件及log文件，而且该文件会记录下此次访问的时间，日志的级别和输出信息'WOW!'。
 
-## //3.6 Hiding Your Authentication Protected Service behind AuthMiddleware 
+## 3.6 Hiding Your Authentication Protected Service behind AuthMiddleware 
 ### 该例子中并没有提供登陆的实现,这里主要根据用户拿到intAuthToken和id后,在Token表中查询是否有值,如有则说明该用户已经能够登陆,可以执行下一步的"查询详情操作".
 
 > 操作步骤:浏览器访问http://localhost:3000/sp100032/wallet/self/detail?intAuthToken=yuqbajnnr,则会显示'welcome iPhone se user from 121.2.88.137', 如果输入的是http://localhost:3000/sp100032/wallet/self/detail,则显示'{"ret":1001}';
