@@ -1,0 +1,284 @@
+[2018-04-03T14:36:21.604] [INFO] app - TypeError: Cannot read property 'findOne' of undefined
+    at C:\Users\bright\Desktop\express\utils\TokenCache.js:6:13
+    at new Promise (<anonymous>)
+    at AuthRouters.check (C:\Users\bright\Desktop\express\utils\TokenCache.js:5:12)
+    at AuthRouters.AuthMiddlewareProtected (C:\Users\bright\Desktop\express\router\AuthRouters.js:64:21)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at rawParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\raw.js:67:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+[2018-04-03T14:36:21.611] [INFO] app - [ { '1+1': 2 } ]
+[2018-04-03T14:39:22.113] [INFO] app - TypeError: Cannot read property 'findOne' of undefined
+    at C:\Users\bright\Desktop\express\utils\TokenCache.js:7:13
+    at new Promise (<anonymous>)
+    at AuthRouters.check (C:\Users\bright\Desktop\express\utils\TokenCache.js:6:12)
+    at AuthRouters.AuthMiddlewareProtected (C:\Users\bright\Desktop\express\router\AuthRouters.js:64:21)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at rawParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\raw.js:67:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+[2018-04-03T14:39:22.177] [INFO] app - [ { '1+1': 2 } ]
+[2018-04-03T14:40:58.850] [INFO] app - TypeError: Cannot read property 'findone' of undefined
+    at C:\Users\bright\Desktop\express\utils\TokenCache.js:6:13
+    at new Promise (<anonymous>)
+    at AuthRouters.check (C:\Users\bright\Desktop\express\utils\TokenCache.js:5:12)
+    at AuthRouters.AuthMiddlewareProtected (C:\Users\bright\Desktop\express\router\AuthRouters.js:64:21)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at rawParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\raw.js:67:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+[2018-04-03T14:40:58.917] [INFO] app - [ { '1+1': 2 } ]
+[2018-04-03T14:54:35.871] [INFO] app - TypeError: Cannot read property 'findOne' of undefined
+    at C:\Users\bright\Desktop\express\utils\TokenCache.js:6:13
+    at new Promise (<anonymous>)
+    at AuthRouters.check (C:\Users\bright\Desktop\express\utils\TokenCache.js:5:12)
+    at AuthRouters.AuthMiddlewareProtected (C:\Users\bright\Desktop\express\router\AuthRouters.js:64:21)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at rawParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\raw.js:67:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+[2018-04-03T15:09:29.803] [INFO] app - TypeError: Cannot read property 'findOne' of undefined
+    at C:\Users\bright\Desktop\express\utils\TokenCache.js:6:13
+    at new Promise (<anonymous>)
+    at AuthRouters.check (C:\Users\bright\Desktop\express\utils\TokenCache.js:5:12)
+    at AuthRouters.AuthMiddlewareProtected (C:\Users\bright\Desktop\express\router\AuthRouters.js:64:21)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at rawParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\raw.js:67:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+[2018-04-03T15:11:09.643] [INFO] app - TypeError: Cannot read property 'findOne' of undefined
+    at C:\Users\bright\Desktop\express\utils\TokenCache.js:7:13
+    at new Promise (<anonymous>)
+    at AuthRouters.check (C:\Users\bright\Desktop\express\utils\TokenCache.js:5:12)
+    at AuthRouters.AuthMiddlewareProtected (C:\Users\bright\Desktop\express\router\AuthRouters.js:64:21)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at rawParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\raw.js:67:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+[2018-04-03T15:21:57.002] [INFO] app - TypeError: Cannot read property 'findOne' of undefined
+    at C:\Users\bright\Desktop\express\utils\TokenCache.js:7:13
+    at new Promise (<anonymous>)
+    at AuthRouters.check (C:\Users\bright\Desktop\express\utils\TokenCache.js:6:12)
+    at AuthRouters.AuthMiddlewareProtected (C:\Users\bright\Desktop\express\router\AuthRouters.js:64:21)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at rawParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\raw.js:67:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+[2018-04-03T15:30:26.244] [INFO] app - TypeError: Token.findOne is not a function
+    at C:\Users\bright\Desktop\express\utils\TokenCache.js:7:13
+    at new Promise (<anonymous>)
+    at AuthRouters.check (C:\Users\bright\Desktop\express\utils\TokenCache.js:6:12)
+    at AuthRouters.AuthMiddlewareProtected (C:\Users\bright\Desktop\express\router\AuthRouters.js:64:21)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at rawParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\raw.js:67:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+[2018-04-03T15:31:24.502] [INFO] app - TypeError: Token.findOne is not a function
+    at C:\Users\bright\Desktop\express\utils\TokenCache.js:7:13
+    at new Promise (<anonymous>)
+    at AuthRouters.check (C:\Users\bright\Desktop\express\utils\TokenCache.js:6:12)
+    at AuthRouters.AuthMiddlewareProtected (C:\Users\bright\Desktop\express\router\AuthRouters.js:64:21)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at rawParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\raw.js:67:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+[2018-04-03T15:31:29.678] [INFO] app - TypeError: Token.findOne is not a function
+    at C:\Users\bright\Desktop\express\utils\TokenCache.js:7:13
+    at new Promise (<anonymous>)
+    at AuthRouters.check (C:\Users\bright\Desktop\express\utils\TokenCache.js:6:12)
+    at AuthRouters.AuthMiddlewareProtected (C:\Users\bright\Desktop\express\router\AuthRouters.js:65:21)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at rawParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\raw.js:67:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+[2018-04-03T15:35:12.000] [INFO] app - TypeError: Token.findOne is not a function
+    at C:\Users\bright\Desktop\express\utils\TokenCache.js:7:13
+    at new Promise (<anonymous>)
+    at AuthRouters.check (C:\Users\bright\Desktop\express\utils\TokenCache.js:6:12)
+    at AuthRouters.AuthMiddlewareProtected (C:\Users\bright\Desktop\express\router\AuthRouters.js:65:21)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\bright\Desktop\express\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at rawParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\raw.js:67:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\bright\Desktop\express\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\bright\Desktop\express\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\bright\Desktop\express\node_modules\express\lib\router\layer.js:95:5)
+[2018-04-03T15:35:58.746] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T15:37:58.853] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T15:38:41.706] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T15:39:15.188] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T15:39:16.401] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T15:39:26.534] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T15:44:58.459] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T15:47:30.774] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T15:47:31.471] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T15:47:38.274] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T15:47:50.943] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T15:47:52.569] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T15:47:52.846] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T15:54:03.020] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T16:00:21.844] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T16:00:31.440] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T16:01:59.609] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T16:49:08.686] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T16:51:56.601] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T16:53:11.175] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T16:53:12.382] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T16:53:12.661] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T16:53:12.931] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T16:53:13.197] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T17:38:59.797] [INFO] app - peter info wow！
+[2018-04-03T17:40:56.722] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T17:41:07.699] [INFO] app - IntAuthToken isn't found in mysql
+[2018-04-03T17:41:09.543] [INFO] app - IntAuthToken isn't found in mysql

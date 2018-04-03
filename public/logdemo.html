@@ -9,42 +9,25 @@
 </head>
 
 <body>
-    <form action="/v3/peter/debug/append" method="post">
+    <form action='v3/peter/debug/append' method="post">
     
         <fieldset>
             <legend>Logging to Multiple Files Differentiated by Levels</legend>
-
+            name:
             <select name="username" id="username">
                 <option value="bob">bob</option>
                 <option value="peter">peter</option>
                 <option value="jane">jane</option>
             </select>
+            lv:
             <select name="lv1" id='userLogLvl'>
-                <option value='debug' selected="selected">debug</option>
+                <option value='debug'>debug</option>
                 <option value='info'>info</option>
                 <option value='warning'>warning</option>
-            </select>
-              <!--<form action="/v3/peter/debug/append" method="post">-->
+            </select> 
               <input type="submit" value="add">
-              <!--</form>-->
-
         </fieldset>
     </form>
-
-
-
-    <!--<script  type="text/javascript" src="./jquery.js"></script>
-    <script>
-    alert("hei");
-        $().ready(function freshForm() {
-            var user = $('#username').val();
-            var level = $('#userLogLvl').val();
-            var forms =
-             alert(level);
-             console.log(user);
-           
-        }); 
-    </script>-->
 </script>
 
 </body>

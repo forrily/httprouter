@@ -1,0 +1,9 @@
+
+{
+    connectionLimit : 10,
+    host : 'localhost',
+    username: 'username',
+    port : 3306,
+    password : 'password',
+    dbname : 'database'
+}
