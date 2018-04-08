@@ -16,13 +16,6 @@ const Token = sequelize.define('token',{
 }
 ); 
 
-// Token.findOne({
-//   where:{
-//     intAuthToken:"qaqaqa",
-//     id:'sp100029'
-//   }
-// })
-
 exports.default = Token; 
 
 

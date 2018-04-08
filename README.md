@@ -30,8 +30,9 @@
 ## 3.6 Hiding Your Authentication Protected Service behind AuthMiddleware 
 ### 该例子中并没有提供登陆的实现,这里主要根据用户拿到intAuthToken和id后,在Token表中查询是否有值,如有则说明该用户已经能够登陆,可以执行下一步的"查询详情操作".
 
-> 操作步骤:浏览器访问http://localhost:3000/sp100032/wallet/self/detail?intAuthToken=yuqbajnnr,则会显示'welcome iPhone se user from 121.2.88.137', 如果输入的是http://localhost:3000/sp100032/wallet/self/detail,则显示'{"ret":1001}';
+> 操作步骤:浏览器访问"http://localhost:3000/sp100032/wallet/self/detail?intAuthToken=yuqbajnnr",则会显示'welcome iPhone se user from 121.2.88.137', 如果输入的是"http://localhost:3000/sp100032/wallet/self/detail",则显示'{"ret":1001}';
 
 ## 3.7 Automate Your Documentation
 ### 通过apidoc快速生成api文档
-> 操作步骤：apidoc -f "app\.js$" 文件启动
+> 操作步骤：请先通过NPM 安装apidoc依赖包 "npm i apidoc -g"
+> 在根目录命令行执行"app.js"文件 apidoc -f "app\.js$" 

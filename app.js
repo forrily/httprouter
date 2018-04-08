@@ -20,7 +20,7 @@ app.use(bodyParser.raw( {
 }));
 
 
-app.get(constants.ROUTER_PATHS.BASE + constants.ROUTER_PATHS.TEST_API, testrouter.fun1);
+app.get(constants.ROUTER_PATHS.BASE + constants.ROUTER_PATHS.TEST_API, testrouter.HelloWorld);
 //测试路由的路径，能访问到这个路径就显示hello world 
 /**
  * @api{get}/v3/test-api 3.1 Basic Parameterized Http Route
@@ -33,7 +33,7 @@ app.get(constants.ROUTER_PATHS.BASE + constants.ROUTER_PATHS.TEST_API, testroute
  * 
  * @apiSuccess{String} print "hello world"
  */
-app.get(constants.ROUTER_PARAMS.VERSION + constants.ROUTER_PARAMS.ACTION, testrouter.fun2); 
+app.get(constants.ROUTER_PARAMS.VERSION + constants.ROUTER_PARAMS.ACTION, testrouter.QueryInRequst); 
 //统一资源定位器请求的基本查询
 /**
 * @api {get} /v:version/:action 3.2 Basic Query in Request
@@ -58,7 +58,7 @@ app.get(constants.ROUTER_PARAMS.VERSION + constants.ROUTER_PARAMS.ACTION, testro
 *       'result':7
 *     }
 */
-app.post(constants.ROUTER_PARAMS.VERSION + constants.ROUTER_PARAMS.ACTION, testrouter.fun3); 
+app.post(constants.ROUTER_PARAMS.VERSION + constants.ROUTER_PARAMS.ACTION, testrouter.FormInRequest); 
 //访问静态页面显示一个表单，提交表单返回json 数据
 /**
 * @api {post} /v:version/:action 3.3 URLEncoded Form in Request
@@ -87,13 +87,13 @@ app.post(constants.ROUTER_PARAMS.VERSION + constants.ROUTER_PARAMS.ACTION, testr
 app.use('/index', express.static('public/index.html')); 
 app.set('view engine', 'jade'); 
 
-app.get(constants.ROUTER_PARAMS.NAMESPACE + constants.ROUTER_PARAMS.RESOURCE + constants.ROUTER_PARAMS.ACTION, testrouter.fun4); 
+app.get(constants.ROUTER_PARAMS.NAMESPACE + constants.ROUTER_PARAMS.RESOURCE + constants.ROUTER_PARAMS.ACTION, testrouter.TemplateEngine); 
 //使用模板引擎返回一个表格
 
 app.use('/log', express.static('public/logdemo.html')); 
-app.post(constants.ROUTER_PARAMS.VERSION + constants.ROUTER_PARAMS.RESOURCE + constants.ROUTER_PARAMS.LEVEL + constants.ROUTER_PARAMS.ACTION, testrouter.fun5); 
+app.post(constants.ROUTER_PARAMS.VERSION + constants.ROUTER_PARAMS.RESOURCE + constants.ROUTER_PARAMS.LEVEL + constants.ROUTER_PARAMS.ACTION, testrouter.LoggingToMultipleFiles); 
 //打印log
-app.get(constants.ROUTER_PARAMS.USERID + constants.ROUTER_PATHS.WALLET + constants.ROUTER_PATHS.SELF + constants.ROUTER_PATHS.DETAIL, testrouter.fun6,testrouter.fun7); 
+app.get(constants.ROUTER_PARAMS.USERID + constants.ROUTER_PATHS.WALLET + constants.ROUTER_PATHS.SELF + constants.ROUTER_PATHS.DETAIL, testrouter.DetectMySQL,testrouter.getDetail); 
 
 //中间件///user/{:userId}/wallet/self/detail
 var server = app.listen(3000, function () {

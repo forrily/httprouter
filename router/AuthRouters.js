@@ -70,7 +70,7 @@ const LoggingToMultipleFiles = function (req, res) {
     //3.5Logging to Multiple Files Differentiated by Levels 记录按级区分的多个文件
 }
 
-const AuthMiddlewareProtected = function(req, res, next) {
+const DetectMySQL = function(req, res, next) {
     const instance = this; 
     let intAuthToken = req.query.intAuthToken || req.params.intAuthToken || req.body.intAuthToken; 
     let id = req.query.userid || req.params.userid || req.body.userid; 
@@ -130,13 +130,13 @@ class AuthRouters extends AbstractAuthRouterCollection {
     constructor(props) {
         super(props); 
         const instance = this; 
-        this.fun1 = BasicParameterizedHttpRoute.bind(instance); 
-        this.fun2 = QueryInRequst.bind(instance); 
-        this.fun3 = FormInRequest.bind(instance); 
-        this.fun4 = TemplateEngine.bind(instance); 
-        this.fun5 = LoggingToMultipleFiles.bind(instance); 
-        this.fun6 = AuthMiddlewareProtected.bind(instance); 
-        this.fun7 = getDetail.bind(instance); 
+        this.HelloWorld = BasicParameterizedHttpRoute.bind(instance); 
+        this.QueryInRequst = QueryInRequst.bind(instance); 
+        this.FormInRequest = FormInRequest.bind(instance); 
+        this.TemplateEngine = TemplateEngine.bind(instance); 
+        this.LoggingToMultipleFiles = LoggingToMultipleFiles.bind(instance); 
+        this.DetectMySQL = DetectMySQL.bind(instance); 
+        this.getDetail = getDetail.bind(instance); 
     }
 
 }
