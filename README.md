@@ -34,5 +34,6 @@
 
 ## 3.7 Automate Your Documentation
 ### 通过apidoc快速生成api文档
-> 操作步骤：请先通过NPM 安装apidoc依赖包 "npm i apidoc -g"
-> 在根目录命令行执行"app.js"文件 apidoc -f "app\.js$" 
+> 操作步骤：
+- 请先通过NPM 安装apidoc依赖包 "npm i apidoc -g"
+- 在根目录命令行执行"app.js"文件 apidoc -f "app\.js$" 
