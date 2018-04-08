@@ -13,18 +13,27 @@ const BasicParameterizedHttpRoute = function (req, res) {
 }
 
 const QueryInRequst = function (req, res) {
-    var a = parseFloat(req.query.a); 
+    var a = parseFloat(req.query.a);
     var b = parseFloat(req.query.b);
-    let result = 0; 
+    let result = 0;
     const operator = req.params.action;
-    if("plus" == operator){
+    if ("plus" == operator) {
         result = a + b;
     }
-    res.json( {
-        "ret":1000, 
-        "version":req.params.version, 
-        "action":req.params.action, 
-        "result":result
+    else if (operator == "minus") {
+        result = a - b;
+    }
+    else if (operator == "divide") {
+        result = a / b;
+    }
+    else if (operator == "multiply") {
+        result = a * b;
+    }
+    res.json({
+        "ret": 1000,
+        "version": req.params.version,
+        "action": req.params.action,
+        "result": result
     }); 
     //3.2请求中的基本查询Basic Query in Request
 }
@@ -64,7 +73,7 @@ const LoggingToMultipleFiles = function (req, res) {
 const AuthMiddlewareProtected = function(req, res, next) {
     const instance = this; 
     let intAuthToken = req.query.intAuthToken || req.params.intAuthToken || req.body.intAuthToken; 
-    let id = req.query.userid || req.params.userid || req.body.userid;
+    let id = req.query.userid || req.params.userid || req.body.userid; 
     tokenCahe.check.call(this, intAuthToken, id).then(function (isTokenExisits) {
         if (isTokenExisits != true) {
             throw"IntAuthToken isn't found in mysql"
@@ -80,12 +89,12 @@ const AuthMiddlewareProtected = function(req, res, next) {
 }
 
 const getDetail = function(req, res, next) {
-    let intAuthToken = req.query.intAuthToken || req.params.intAuthToken||req.body.intAuthToken;
-    let device = req.query.device || req.params.device||req.body.device;   
+    let intAuthToken = req.query.intAuthToken || req.params.intAuthToken || req.body.intAuthToken; 
+    let device = req.query.device || req.params.device || req.body.device; 
        
     Token.findOne( {
       where: {
-        intAuthToken:intAuthToken,
+        intAuthToken:intAuthToken, 
         
       }
     })
@@ -107,7 +116,7 @@ const getDetail = function(req, res, next) {
         }
       })
       .catch(function (res, err) {
-        Logger.instance.app.info(err),
+        Logger.instance.app.info(err), 
         err.ret = 1001
         instance.respondWithError(err); 
       }); 
@@ -119,7 +128,7 @@ const getDetail = function(req, res, next) {
 
 class AuthRouters extends AbstractAuthRouterCollection {
     constructor(props) {
-        super(props);
+        super(props); 
         const instance = this; 
         this.fun1 = BasicParameterizedHttpRoute.bind(instance); 
         this.fun2 = QueryInRequst.bind(instance); 
